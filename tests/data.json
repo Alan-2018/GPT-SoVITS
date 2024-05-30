@@ -1,0 +1,21 @@
+{
+    "text": "ABC文化与香蕉人",
+    "text_lang": "zh",
+    "ref_audio_path": "./tests/zl.000.wav",
+    "prompt_text": "为流通而造的船，遇到港口也会停泊，所以璃月是一切财富沉淀的地方。",
+    "prompt_lang": "zh",
+    "top_k": 5,
+    "top_p": 1,
+    "temperature": 1,
+    "text_split_method": "cut5",
+    "batch_size": 1,
+    "batch_threshold": 0.75,
+    "split_bucket": true,    
+    "speed_factor":1.0,
+    "fragment_interval":0.3,
+    "seed": -1,    
+    "media_type": "wav",
+    "streaming_mode": true,
+    "parallel_infer": true,
+    "repetition_penalty": 1.35
+}
