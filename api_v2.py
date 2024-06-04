@@ -138,7 +138,8 @@ argv = sys.argv
 
 if config_path in [None, ""]:
     config_path = "GPT-SoVITS/configs/tts_infer.yaml"
-
+    
+# config_path = os.path.abspath(os.path.join(os.path.dirname(__file__), config_path))
 tts_config = TTS_Config(config_path)
 tts_pipeline = TTS(tts_config)
 
