@@ -10,3 +10,7 @@ reference
 GPT_weights
 SoVITS_weights
 TEMP
+
+# C-TODO
+train_data
+tests/others/pkgs
